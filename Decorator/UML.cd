@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="//Problem:  We are going to implement a CloudStream class that write and read from cloud hosting.&#xD;&#xA;//aditional requirment came that we need to encrypt the data before storing it .. we can create another class inherited from CloudStream overwite write method&#xD;&#xA;//aditional requirment came that we need to compress the data before storing it .. same solution&#xD;&#xA;//aditional requirment came that we need to compress the data before storing it .. same solution&#xD;&#xA;//Note: to learn about inheritance and override methods at : https://www.geeksforgeeks.org/c-sharp-method-overriding/&#xD;&#xA;// issue here whenever we add a new behvior (compress or encrypt) to cloudStream we need to add new class!&#xD;&#xA;//Decorator pattern enable us to add additional behavior to our existing object">
+    <Position X="2.25" Y="1" Height="1.594" Width="7.71" />
+  </Comment>
+  <Class Name="Decorator.Solution.CloudStream" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Solution\CloudStream.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Decorator.Solution.EncryptedCloudStream" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABA=</HashCode>
+      <FileName>Solution\EncryptedCloudStream.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Decorator.Solution.CompressedCloudStream" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABA=</HashCode>
+      <FileName>Solution\CompressedCloudStream.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Decorator.Solution.IStream">
+    <Position X="3.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Solution\IStream.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

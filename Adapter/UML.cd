@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="//Problem: we have an image and filter interface, vividFilter and imageView which take an image and apply a filter to it.&#xD;&#xA;&#xD;&#xA;//Suppose we have a 3rd party filters library, we need to use its filter classes which has diff interface than our filter&#xD;&#xA;//(that contains apply method)&#xD;&#xA;//&#xD;&#xA;//We use this pattern to convert the interface of this third party (caramel Class) to our custom interface that we made">
+    <Position X="0.5" Y="0.5" Height="1.198" Width="7.481" />
+  </Comment>
+  <Class Name="Adapter.Image">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adapter.VividFilter" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VividFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Adapter.ImageView">
+    <Position X="0.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adapter.CaramelAdapter" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaramelAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Adapter.AvaFilters.Caramel">
+    <Position X="3.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAAAAA=</HashCode>
+      <FileName>AvaFilters\Caramel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Adapter.IFilter">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

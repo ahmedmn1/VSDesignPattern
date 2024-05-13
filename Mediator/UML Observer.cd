@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Note: when you iniate ListBox, TextBox, Button control, and call AddEventHandler for each of them they all have a spearated _eventHandlers List so when you call NotifyEventHandlers  _eventHandlers list is not shared between all instances.">
+    <Position X="0.667" Y="6.51" Height="0.615" Width="7.763" />
+  </Comment>
+  <Class Name="Mediator.Observer.UIControl">
+    <Position X="3" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Obeserver\UIControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.Observer.Button">
+    <Position X="3.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Obeserver\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.Observer.ListBox">
+    <Position X="6.25" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Obeserver\ListBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.Observer.TextBox">
+    <Position X="0.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Obeserver\TextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.Observer.ArticlesDialogBox">
+    <Position X="9.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAAAAAAAAQAEAAAAAIAAAAAIAAAAAA=</HashCode>
+      <FileName>Obeserver\ArticlesDialogBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

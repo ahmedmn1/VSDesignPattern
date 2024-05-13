@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="// Problem: we have an excel sheet1 with table record and another sheet contains total values of the first sheet and a pie chart that represent the data from sheet1. we need to notify the pie chart and the sheet2 when datachanges in sheet 1&#xD;&#xA;&#xD;&#xA;// when datasource change its state, it calls NotifyObservers, so the Datasource is resonsible on add the observer and notify them (through the derived Subject class methods AddObserver and Notify Observer)&#xD;&#xA;&#xD;&#xA;Note: on Observer pattern we have two types of communications Push and Pull styles. on push style the subject push its data updates to the observers through its NotifyObserver methods&#xD;&#xA;on push style ExcelSheet doen't know anything about the datasource, it is independent becaue it receives the data throught the update method&#xD;&#xA;&#xD;&#xA;The problem with push style communication, if we create a new type of observer that need different set of data, we have to change the IObserver interface, update method and its param!&#xD;&#xA;&#xD;&#xA;Pull style is more flixabable, but coupling the concrete observer to the datasource is not bad it is a good coupling as no software has zero coupling &#xD;&#xA;&#xD;&#xA;Note: pull style, the Observer pull whetever update they need but in push, the subject push just specfic value&#xD;&#xA;&#xD;&#xA;">
+    <Position X="0.5" Y="0.5" Height="3.115" Width="7.689" />
+  </Comment>
+  <Class Name="Observer.Pull.DataSourceP">
+    <Position X="0.75" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAABAAAQAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pull\DataSourceP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Pull.ExcelSheet1P" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pull\ExcelSheet1P.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Observer.Pull.ExcelSheetP" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pull\ExcelSheetP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Observer.Pull.PChartP" BaseTypeListCollapsed="true">
+    <Position X="4" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pull\PChartP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Observer.Pull.Subject">
+    <Position X="0.5" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAA=</HashCode>
+      <FileName>Pull\Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Observer.Pull.IObserver">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pull\IObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

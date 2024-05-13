@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText=" Implementing Undo Mechanism using Command pattern, it is more effective than momento if we don't need to store all exact object states like video streaming and rewind&#xD;&#xA;// note the command object is playing between UI and businees logic&#xD;&#xA;&#xD;&#xA;Problem: We have an HTML doc app, it has some UnDo Able command like make bold and Do Able Command like safe. want to implement this scenario using command pattern&#xD;&#xA;&#xD;&#xA;We have HtmlDocument with text and we need to apply commands on it, makeBold, underline, etc. with undo mechanism using command pattern&#xD;&#xA;&#xD;&#xA;Note: BoldCommand mange the state of HtmlDocument by calling MakeBold method also the UnderLineCommand&#xD;&#xA;Start reading the diagram, HtmlDocument, history, interfaces, BoldCommand and UnderlineComman then UndoCommand">
+    <Position X="0.5" Y="0.646" Height="2" Width="7.585" />
+  </Comment>
+  <Class Name="Command.HTMLEditor.UndoCommand">
+    <Position X="11.25" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HTMLEditor\UndoCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Command.HTMLEditor.HtmlDocument">
+    <Position X="1.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>HTMLEditor\HtmlDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.HTMLEditor.History">
+    <Position X="1.5" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAAAAABAACAA=</HashCode>
+      <FileName>HTMLEditor\History.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.HTMLEditor.BoldCommand">
+    <Position X="5.75" Y="5.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAEAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HTMLEditor\BoldCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Command.HTMLEditor.UnderLineCommand">
+    <Position X="5.75" Y="8.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAEAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HTMLEditor\UnderLineCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Command.HTMLEditor.ICommand">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HTMLEditor\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Command.HTMLEditor.IUndoableCommand">
+    <Position X="6.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HTMLEditor\IUndoableCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

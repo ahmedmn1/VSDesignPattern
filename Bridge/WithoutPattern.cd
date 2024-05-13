@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="We have two types of Hirarichy, feature (which contains RemoteControl and AdvancedRemoteControl)">
+    <Position X="1" Y="2" Height="0.542" Width="4.315" />
+  </Comment>
+  <Class Name="Bridge.AdvancedRemoteControl">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdvancedRemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.RemoteControl">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>RemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.SamsungRemoteControl">
+    <Position X="9.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SamsungRemoteControl.cs</FileName>
+      <NewMemberFileName>SonyRemoteControl.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.SamsungAdvancedRemoteControl">
+    <Position X="3.5" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SonyAdvancedRemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.SonyAdvancedRemoteControl">
+    <Position X="6" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SamsungAdvancedRemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.SonyRemoteControl">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SonyRemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

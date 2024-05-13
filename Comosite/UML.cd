@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Benifit: we want to represent a hirarichy of objects, and we want to treat each object the same way.&#xD;&#xA;Real Example, you created power point shapes, then group them on two group, then create a group that contain the two group. when you &#xD;&#xA;resize the third group you resize all object within the inside group. Note the call is recursive on the the render method on the group object">
+    <Position X="0.5" Y="0.5" Height="1.167" Width="8.013" />
+  </Comment>
+  <Class Name="Comosite.Shape" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Comosite.Group" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>Group.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Comosite.IComponent">
+    <Position X="4.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>IComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

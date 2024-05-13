@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Iterator pattern:&#xD;&#xA;&#xD;&#xA;Problem: if we want to change the initernals of the browseHistory class (suppose we have a method GetUrls that return its urls list then we need to chage the list type to use array) we have to change the code on the consumer&#xD;&#xA;Solution: We are going to change the implementation on BrowseHistory class&#xD;&#xA;createIterator method that create ListIterator object which initiated with BrowseHistory so this class can access the list and iterate.&#xD;&#xA;Note: we delegated the iteration process to the iterator object, and when we set it on theconsumer it is gonna be interface, so when we change the create method internal the consumer wouldn't chnage">
+    <Position X="0.5" Y="0.5" Height="1.844" Width="6.294" />
+  </Comment>
+  <Class Name="IteratorPattern.BrowseHistory">
+    <Position X="0.5" Y="2.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="IteratorPattern.BrowseHistory.ListIterator">
+        <TypeIdentifier>
+          <NewMemberFileName>BrowseHistory.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="IteratorPattern.BrowseHistory.ArrayIterator">
+        <TypeIdentifier>
+          <NewMemberFileName>BrowseHistory.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAACgAAAAAACAAAAACAA=</HashCode>
+      <FileName>BrowseHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IteratorPattern.IIterator&lt;T&gt;">
+    <Position X="4.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAACAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IIterator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

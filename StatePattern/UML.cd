@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Problem: in photoshop we have canvas object that behave differently when its state change&#xD;&#xA;State Pattern : Allow the object (Canvas) to behave differently (mouse up/down change) when its state (CurrentTool) changes &#xD;&#xA;State Patern: When object change its state(CurrentTool), behaves differerntly(MouseUp/Down).">
+    <Position X="1.844" Y="0.5" Height="0.75" Width="6.159" />
+  </Comment>
+  <Class Name="StatePattern.Brush" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Brush.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StatePattern.Canvas">
+    <Position X="2" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEEAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Canvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatePattern.Selection" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Selection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Interface Name="StatePattern.ITool">
+    <Position X="5.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITool.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

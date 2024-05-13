@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="//problem: we have a dialog box, that contain a list box, text box and a save button. when user select an item from the list box&#xD;&#xA;// its content should fill the text box and the button enabled. all of these controls should talk to each other&#xD;&#xA;// you are a component developer of these controls how to provide them to other devs without letting then change thier code?&#xD;&#xA;&#xD;&#xA;// Using Mediator Pattern: mediator is the dialog box, each control will notify the mediator when change occure on control's state by calling&#xD;&#xA;// mediator changed method, in this method you will check which controld chaged and do the logic.&#xD;&#xA;// the problm here with many controls this method will have a lot of decision statements, to solve this we can use observer pattern instead&#xD;&#xA;">
+    <Position X="0.5" Y="0.5" Height="1.51" Width="8.096" />
+  </Comment>
+  <Class Name="Mediator.ListBox">
+    <Position X="0.75" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ListBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.DialogBox">
+    <Position X="6.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DialogBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.UIControl">
+    <Position X="3.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.TextBox">
+    <Position X="3.5" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.Button">
+    <Position X="6" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mediator.ArticlesDialogBox">
+    <Position X="9.75" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAACAAAAAAABAAAAAQAEAAAAAIAAAAAIAAAAAA=</HashCode>
+      <FileName>ArticlesDialogBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

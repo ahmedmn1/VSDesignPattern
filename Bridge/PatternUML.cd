@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Note: if we are going to add a new type of remote control, we are going to add to the feature hirarichy our implementation hirarichy is not gonna affected. But How?">
+    <Position X="0.5" Y="8.229" Height="0.521" Width="8.252" />
+  </Comment>
+  <Comment CommentText="Feature Hirarichy">
+    <Position X="3.99" Y="1.427" Height="0.354" Width="1.242" />
+  </Comment>
+  <Comment CommentText="Implementation Hirarichy">
+    <Position X="8.833" Y="2.396" Height="0.354" Width="1.669" />
+  </Comment>
+  <Class Name="Bridge.Solution.SonyTV">
+    <Position X="10.25" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Solution\SonyTV.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bridge.Solution.RemoteControl">
+    <Position X="3.75" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Solution\RemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.Solution.AdvancedRemoteControl">
+    <Position X="3.25" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solution\AdvancedRemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.Solution.SamsungTV">
+    <Position X="6.75" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Solution\SamsungTV.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bridge.Solution.MovieRemoteControl">
+    <Position X="0.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA=</HashCode>
+      <FileName>Solution\MovieRemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Bridge.Solution.IDevice">
+    <Position X="8.25" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Solution\IDevice.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

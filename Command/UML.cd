@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Problem: the button click method should execute CustomerService.AddCustomer method but we need to decouple our framework (Button and its ICommand) from our consumer (CustomerService) to make our Button generic and its click doesn't depend on any specific implemtnation.&#xD;&#xA;So the main objective is the button (invoker==sender) talk to CustomerService (Receiver) without being aware of it.&#xD;&#xA;The framework here is Button and ICommand&#xD;&#xA;&#xD;&#xA;Note: the Customerservice already existed">
+    <Position X="0.5" Y="0.5" Height="1.177" Width="9.065" />
+  </Comment>
+  <Class Name="Command.FX.Button">
+    <Position X="3.5" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAgA=</HashCode>
+      <FileName>FX\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.AddCustomerCommand">
+    <Position X="7.5" Y="5.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddCustomerCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Command.CustomerService">
+    <Position X="3.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomerService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.OrderService">
+    <Position X="3.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command.AddOrderCommand">
+    <Position X="7.5" Y="7.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>AddOrderCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Command.FX.ICommand">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FX\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

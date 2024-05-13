@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="FacroryAbstract.WithPattern.Material.MaterialWidgetFactory">
+    <Position X="4" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\Material\MaterialWidgetFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FacroryAbstract.WithPattern.ANT.AntWidgetFactory">
+    <Position X="6.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\ANT\AntWidgetFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FacroryAbstract.WithPattern.ANT.AntButton">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\ANT\AntButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FacroryAbstract.WithPattern.Material.MaterialButton">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\Material\MaterialButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FacroryAbstract.WithPattern.ANT.AntTextBox">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\ANT\AntTextBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FacroryAbstract.WithPattern.Material.MaterialTextBox">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\Material\MaterialTextBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FacroryAbstract.WithPattern.APP.ContactForm">
+    <Position X="4.75" Y="9" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\APP\ContactForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FacroryAbstract.WithPattern.IWidget">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\IWidget.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FacroryAbstract.WithPattern.IButton">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\IButton.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FacroryAbstract.WithPattern.ITextBox">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\ITextBox.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FacroryAbstract.WithPattern.IWidgetFactory">
+    <Position X="5.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WithPattern\IWidgetFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

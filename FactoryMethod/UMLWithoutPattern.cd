@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Note: Controller can use any view engine as it takes IMatchaViewEngine, it sets by any derived controlers like ProductsController.&#xD;&#xA;the issue is that on every derived controller you need to pass the engine param whever you call render method">
+    <Position X="2.635" Y="10.833" Height="0.75" Width="8.731" />
+  </Comment>
+  <Comment CommentText="It is a big picture for a framework like MVC and ASP.core controller">
+    <Position X="0.5" Y="0.5" Height="0.479" Width="5.023" />
+  </Comment>
+  <Class Name="FactoryMethod.Matcha.MatchaViewEngine">
+    <Position X="3.5" Y="3.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Matcha\MatchaViewEngine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FactoryMethod.Matcha.Controller">
+    <Position X="3.5" Y="5.75" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Matcha\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryMethod.ProductsController">
+    <Position X="2.75" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FactoryMethod.Matcha.IMatchaViewEngine">
+    <Position X="3.5" Y="2" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Matcha\IMatchaViewEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

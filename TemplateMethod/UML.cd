@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="//Problem: in banking system, we need to save record trail for each task, task name and who did it. we created a task class for each task&#xD;&#xA;// cause if we put the task inside say the Account, each time we have to change it we need to change the account class. &#xD;&#xA;&#xD;&#xA;TemplateMethod pattern: &#xD;&#xA;We create an inhertance relation between TransferMoneyTask class and the Task abstract class which has a template method (Execute) that perform the audit trail and DoEecuteMehod do noting cause its implementation resides on the TransferMoneyTask.&#xD;&#xA; &#xD;&#xA;Note: &#xD;&#xA;- You just initiate an object for TransferMoneyTask then call its Execute method, which will do the auditTtrail and the doExecute for transfer the money.&#xD;&#xA;- DoExecute called hook if we make default implementation on the task class (its DoExecute methos), this is known in many frameworks">
+    <Position X="0.5" Y="0.5" Height="2.052" Width="8.346" />
+  </Comment>
+  <Class Name="TemplateMethod.Task">
+    <Position X="4.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Task.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethod.TransferMoneyTask">
+    <Position X="1.25" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>TransferMoneyTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TemplateMethod.AuditTrail">
+    <Position X="7.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>AuditTrail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

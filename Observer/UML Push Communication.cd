@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="// Problem: we have an excel sheet1 with table record and another sheet contains total values of the first sheet and a pie chart that represent the data from sheet1. we need to notify the pie chart and the sheet2 when datachanges in sheet 1&#xD;&#xA;&#xD;&#xA;// when datasource change its state, it calls NotifyObservers, so the Datasource is resonsible on add the observer and notify them (through the derived Subject class methods AddObserver and Notify Observer)&#xD;&#xA;&#xD;&#xA;Note: on Observer pattern we have two types of communications Push and Pull styles. on push style the subject push its data updates to the observers through its NotifyObserver methods&#xD;&#xA;on push style ExcelSheet doen't know anything about the datasource, it is independent becaue it receives the data throught the update method&#xD;&#xA;&#xD;&#xA;The problem with push style communication, if we create a new type of observer that need different set of data, we have to change the IObserver interface, update method and its param!&#xD;&#xA;What if each observer needs different set of values? that is why we introduce the pull style, instead of the subject push the data, the observer will pull the data it needs.&#xD;&#xA;">
+    <Position X="0.5" Y="0.5" Height="1.948" Width="11.366" />
+  </Comment>
+  <Class Name="Observer.Push.ExcelSheet1" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Push\ExcelSheet1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Observer.Push.ExcelSheet2" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Push\ExcelSheet2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Observer.Push.PChart" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Push\PChart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Observer.Push.Subject">
+    <Position X="0.75" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAA=</HashCode>
+      <FileName>Push\Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer.Push.DataSource">
+    <Position X="1.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAAA=</HashCode>
+      <FileName>Push\DataSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Observer.Push.IObserver">
+    <Position X="6.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Push\IObserver.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

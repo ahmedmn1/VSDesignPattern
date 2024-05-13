@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="//Startegy Pattern, same like state. the main difference is two: 1- state pattern: if a single state change, multiple behaviours change on canvas object&#xD;&#xA;//2- Starategy, if multiple state change(compressor, filter), single behavior(Store Method) will change &#xD;&#xA;Real Life Example:-&#xD;&#xA;ImageStore class that store an image after doing certain compress and filter to them before storing them to a DB">
+    <Position X="0.594" Y="0.5" Height="1.041" Width="7.054" />
+  </Comment>
+  <Class Name="Strategy.JpegCompressor">
+    <Position X="4.75" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JpegCompressor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Strategy.PngCompressor">
+    <Position X="4.75" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PngCompressor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Strategy.BlackAndWhiteFilter">
+    <Position X="4.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BlackAndWhiteFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Strategy.HighContrastFilter">
+    <Position X="4.75" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighContrastFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Strategy.ImageStore">
+    <Position X="0.5" Y="4" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAA=</HashCode>
+      <FileName>ImageStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Strategy.ICompressor">
+    <Position X="7.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICompressor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Strategy.IFilter">
+    <Position X="7.75" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

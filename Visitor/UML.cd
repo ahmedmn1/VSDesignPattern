@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="The Problem:- &#xD;&#xA;When working with HTML editor  we have HTMLNodes like anchor and heading that implement HTMLNode Interface and an HTML document class that contain a punch of nodes, a node has some tags which is highligted so we need to implement this behavior, we put it on the interface and implement it on all nodes then add it to the HTMLDoc class if next day we want to add anew operation like plain text we need to add it to the interface, implement it on the all nodes then change the htmlDoc that is why visitor pattern is here. &#xD;&#xA;&#xD;&#xA;Benifit: allows us to add an operation to our object (node here) without affecting its structure&#xD;&#xA;&#xD;&#xA;Note: &#xD;&#xA;- Object structure should be settled meaning that all types are settled and we don't frequently add new type like anchor or header to use this pattern effectively.&#xD;&#xA;- The beuty of this pattern, if you want to add a new operation, you just add anew type that inherit from IOperation, then you&#xD;&#xA;call HTMLDocument.Execute(then new operation)">
+    <Position X="0.5" Y="0.5" Height="2.532" Width="7.106" />
+  </Comment>
+  <Class Name="Visitor.AnchorNode" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnchorNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Visitor.HeaderNode" BaseTypeListCollapsed="true">
+    <Position X="6" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HeaderNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Visitor.HTMLDocument">
+    <Position X="1.25" Y="7.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>HTMLDocument.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor.HighLightOperation" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="9.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighLightOperation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Visitor.IHTMLNode">
+    <Position X="4.25" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHTMLNode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Visitor.IOperation">
+    <Position X="7.75" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IOperation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

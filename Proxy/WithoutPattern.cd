@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Proxy.Solution.Library">
+    <Position X="5.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solution\Library.cs</FileName>
+      <NewMemberFileName>Library.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proxy.Solution.Ebook">
+    <Position X="2.75" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Solution\Ebook.cs</FileName>
+      <NewMemberFileName>Ebook.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
