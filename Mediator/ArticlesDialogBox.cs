@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mediator
 {
-    // created by the consumer
+    // created by the consumer (developer)
     // this is a mediator pattern
     public class ArticlesDialogBox : DialogBox
     {
