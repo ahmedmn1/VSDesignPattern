@@ -1,35 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Problem: we have a mobil lib to push notification to our users, among its classes are Message, Connection, AuthToken and notificationServer. each time we need to send a message to user we need to follow the steps in program.cs!&#xD;&#xA;&#xD;&#xA;Solution: creating a Facad interface that will be talk directly to this complex library.">
+    <Position X="1.615" Y="1.75" Height="0.75" Width="7.169" />
+  </Comment>
   <Class Name="Facade.NotificationService">
-    <Position X="5" Y="6.5" Width="3" />
+    <Position X="4.75" Y="8.25" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>NotificationService.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Facade.NotificationServer">
-    <Position X="3.75" Y="4.25" Width="5.25" />
+    <Position X="3.5" Y="6" Width="5.25" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAEAAAIIAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>NotificationServer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Facade.AuthToken">
-    <Position X="7.75" Y="1.75" Width="1.5" />
+    <Position X="7.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AuthToken.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Facade.Connection">
-    <Position X="5.5" Y="1.75" Width="1.75" />
+    <Position X="5.25" Y="3.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Connection.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Facade.Message">
-    <Position X="3" Y="1.5" Width="2.25" />
+    <Position X="2.75" Y="3.25" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Message.cs</FileName>

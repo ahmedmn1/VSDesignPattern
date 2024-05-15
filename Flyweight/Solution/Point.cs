@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Flyweight.Solution
 {
-    //instead of creating a new point object each time we want to share its type and icon props across all points on he memory
+    //instead of creating a new point object each time we want to share its type and icon props across all points on the memory
     public class Point(int x, int y, PointIcon pointIcon)
     {
         private int x = x, y = y;             

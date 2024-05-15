@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Flyweight.Solution
 {
-    //this class to enure that there is an icon for a given type in memory and return it if there is not it will add and returns it
+    //This class to enure that there is an icon for a given type in memory and return it if there is not it will add and returns it
     //some kind of cache, this is how to prepare cache or pool of object to reuse
-    public class PointIconFactory //resposible of purely creating a pointIcon object, we rely on this factory to not create multible instance of the same object in moemory
+    public class PointIconFactory //resposible of purely creating a pointIcon object, we rely on this factory to not create multible instance of the
+                                  //same object in moemory
     {
         private Dictionary<PointType, PointIcon> icons = [];
 
