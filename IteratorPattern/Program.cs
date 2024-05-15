@@ -22,7 +22,6 @@ history.Push("E");
 history.Push("F");
 
 
-
 //if we change the internal of browseHistory class this code will not affected
 while (iterator.HasNext())
 {

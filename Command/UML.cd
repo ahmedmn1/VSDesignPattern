@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Comment CommentText="Problem: the button click method should execute CustomerService.AddCustomer method but we need to decouple our framework (Button and its ICommand) from our consumer (CustomerService) to make our Button generic and its click doesn't depend on any specific implemtnation.&#xD;&#xA;So the main objective is the button (invoker==sender) talk to CustomerService (Receiver) without being aware of it.&#xD;&#xA;The framework here is Button and ICommand&#xD;&#xA;&#xD;&#xA;Note: the Customerservice already existed">
+  <Comment CommentText="Problem: the button click method should execute CustomerService.AddCustomer method but we need to decouple our framework (Button and its ICommand) from our consumer (CustomerService) to make our Button generic and its click doesn't depend on any specific implemtnation.&#xD;&#xA;So the main objective is the button (invoker==sender) talk to CustomerService (Receiver) without being aware of it.&#xD;&#xA;The framework here is Button and ICommand&#xD;&#xA;&#xD;&#xA;Note: the CustomerService and OrderService already existed ">
     <Position X="0.5" Y="0.5" Height="1.177" Width="9.065" />
   </Comment>
   <Class Name="Command.FX.Button">

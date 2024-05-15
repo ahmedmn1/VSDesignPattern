@@ -51,7 +51,7 @@ namespace IteratorPattern
 
 
         //nested class to see the private probs (urls) of BrowseHistory which is urls        
-        public class ListIterator : IIterator<string>
+        private class ListIterator : IIterator<string>
         {
             private readonly BrowseHistory _history;
             private int _index;
@@ -78,7 +78,7 @@ namespace IteratorPattern
             }
         }
 
-        public class ArrayIterator : IIterator<string>
+        private class ArrayIterator : IIterator<string>
         {
             private readonly BrowseHistory _history;
             private int _counter;

@@ -30,7 +30,7 @@ namespace Comosite
             //    }
             //}
 
-            //this is more beutiful using the composite pattern
+            //this is more beutiful using the composite pattern, nested loop is going to executed
             foreach (IComponent component in _components)
             {
                 component.Render();
