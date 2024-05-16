@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Framework\" />
+    <Compile Remove="Framework\**" />
+    <EmbeddedResource Remove="Framework\**" />
+    <None Remove="Framework\**" />
   </ItemGroup>
 
 </Project>

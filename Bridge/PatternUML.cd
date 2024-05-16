@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Comment CommentText="Note: if we are going to add a new type of remote control, we are going to add to the feature hirarichy our implementation hirarichy is not gonna affected. But How?">
-    <Position X="0.5" Y="8.229" Height="0.521" Width="8.252" />
+  <Comment CommentText="Note: if we are going to add a new type of remote control (e.g. MovieRemoteControl), we are going to add to the feature hirarichy as in the diagram,  then yo have two options:- &#xD;&#xA; 1- Add a new class which inherited from SamsungTV &#xD;&#xA; 2- Add new methods to the IDevice (Pause, Play and Stop) then implemt them in all SamsungTV and SonyTV">
+    <Position X="0.5" Y="8.229" Height="1.448" Width="6.742" />
   </Comment>
   <Comment CommentText="Feature Hirarichy">
     <Position X="3.99" Y="1.427" Height="0.354" Width="1.242" />
@@ -40,10 +40,17 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Bridge.Solution.MovieRemoteControl">
-    <Position X="0.5" Y="5.25" Width="1.75" />
+    <Position X="0.75" Y="5.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA=</HashCode>
       <FileName>Solution\MovieRemoteControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bridge.Solution.SamsungTvMovie">
+    <Position X="7.75" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Solution\SamsungTvMovie.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Bridge.Solution.IDevice">

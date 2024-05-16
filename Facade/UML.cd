@@ -4,7 +4,7 @@
     <Position X="1.615" Y="1.75" Height="0.75" Width="7.169" />
   </Comment>
   <Class Name="Facade.NotificationService">
-    <Position X="4.75" Y="8.25" Width="3" />
+    <Position X="4.75" Y="8.75" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>NotificationService.cs</FileName>

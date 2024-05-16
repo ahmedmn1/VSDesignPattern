@@ -4,7 +4,7 @@
     <Position X="1" Y="2" Height="0.542" Width="4.315" />
   </Comment>
   <Class Name="Bridge.AdvancedRemoteControl">
-    <Position X="5.5" Y="4" Width="1.5" />
+    <Position X="5.25" Y="4" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AdvancedRemoteControl.cs</FileName>
@@ -18,7 +18,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Bridge.SamsungRemoteControl">
-    <Position X="9.5" Y="3.75" Width="1.75" />
+    <Position X="9.5" Y="4" Width="2" />
     <TypeIdentifier>
       <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
       <FileName>SamsungRemoteControl.cs</FileName>
@@ -26,7 +26,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Bridge.SamsungAdvancedRemoteControl">
-    <Position X="3.5" Y="6" Width="2.25" />
+    <Position X="3.25" Y="6" Width="2.5" />
     <TypeIdentifier>
       <HashCode>ABAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
       <FileName>SonyAdvancedRemoteControl.cs</FileName>
@@ -40,7 +40,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Bridge.SonyRemoteControl">
-    <Position X="7.5" Y="4" Width="1.5" />
+    <Position X="7.5" Y="4" Width="1.75" />
     <TypeIdentifier>
       <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
       <FileName>SonyRemoteControl.cs</FileName>

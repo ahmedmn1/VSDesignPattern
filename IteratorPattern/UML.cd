@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Comment CommentText="Iterator pattern:&#xD;&#xA;&#xD;&#xA;Problem: if we want to change the initernals of the browseHistory class (suppose we have a method GetUrls that return its urls list then we need to chage the list type to use array) and we don't need to change the code on the consumer&#xD;&#xA;&#xD;&#xA;Solution: We are going to change the implementation on BrowseHistory class&#xD;&#xA;createIterator method that create ListIterator object which initiated with BrowseHistory so this class can access the list and iterate.&#xD;&#xA;Note: we delegated the iteration process to the iterator object, and when we set it on theconsumer it is gonna be interface, so when we change the create method internal the consumer wouldn't chnage">
-    <Position X="0.5" Y="0.5" Height="2.136" Width="6.294" />
+  <Comment CommentText="Iterator pattern:&#xD;&#xA;&#xD;&#xA;Problem: if we want to change the initernals of the browseHistory class (suppose we have a method GetUrls that return its urls list then we need to chage the list type to use array) and we don't need to change the code on the consumer&#xD;&#xA;&#xD;&#xA;Solution: &#xD;&#xA;- We are going to change the implementation on BrowseHistory class&#xD;&#xA;- BrowseHistory.CreateIterator method that create ListIterator, and it is opene to change and use array without forcing the conusmer to change its code&#xD;&#xA;&#xD;&#xA;Note: We delegated the iteration process to the iterator object, and when we set it on theconsumer it is gonna be interface, so when we change the create method internal the consumer wouldn't chnage">
+    <Position X="0.5" Y="0.5" Height="2.136" Width="7.325" />
   </Comment>
   <Class Name="IteratorPattern.BrowseHistory">
     <Position X="0.5" Y="3.25" Width="3" />

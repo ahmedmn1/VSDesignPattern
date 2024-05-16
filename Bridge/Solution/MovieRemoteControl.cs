@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bridge.Solution
 {
-    public class MovieRemoteControl
+    public class MovieRemoteControl(IDevice device) : RemoteControl(device)
     {
         public void Play() 
         { 

@@ -16,8 +16,8 @@ history.Push("D");
 //    Console.WriteLine(history.GetUrls[i]);
 //}
 
-//if we change the internal of browseHistory class this code will not affected
-IIterator<string> iterator = history.CreateIterator(); //program against interface >>>important
+//if we change the internal of browseHistory.CreateIterator this code will not affected as we program against interface >>>important
+IIterator<string> iterator = history.CreateIterator();
 history.Push("E");
 history.Push("F");
 

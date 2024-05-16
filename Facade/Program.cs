@@ -21,7 +21,9 @@ notificationServer.Send(authToken, message,"trgetDevice");
 //disconnect
 notificationServer.Disconnect();
 
-//***using Facade pattern***
+
+
+//***Using Facade pattern just two lines of code***
 NotificationService notificationService = new ();
 notificationService.Send("Hello world with Facade", "target Device");
 

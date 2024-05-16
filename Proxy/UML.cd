@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Note: We added LoggingEbookProxy to add Logging behavior before loadin the Book... ">
+    <Position X="1.375" Y="11.448" Height="0.396" Width="6.94" />
+  </Comment>
+  <Class Name="Proxy.Solution.EbookProxy">
+    <Position X="5.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Solution\EbookProxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Proxy.Solution.Library">
+    <Position X="8.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solution\Library.cs</FileName>
+      <NewMemberFileName>Library.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proxy.Solution.RealEbook">
+    <Position X="1.5" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Solution\RealEbook.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Proxy.Solution.LoggingEbookProxy">
+    <Position X="5.5" Y="8.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Solution\LoggingEbookProxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Proxy.Solution.IEbook">
+    <Position X="3.25" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Solution\IEbook.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

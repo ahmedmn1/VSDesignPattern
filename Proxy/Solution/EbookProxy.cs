@@ -21,7 +21,7 @@ namespace Proxy.Solution
         {
             if (_realEbook == null) 
             {
-                _realEbook = new(this.FileName);
+                _realEbook = new(this.FileName); // Load the book
             }
             _realEbook.Show();
         }

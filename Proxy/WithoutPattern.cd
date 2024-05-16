@@ -8,12 +8,11 @@
       <NewMemberFileName>Library.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Proxy.Solution.Ebook">
-    <Position X="2.75" Y="2" Width="2.5" />
+  <Class Name="Proxy.Ebook">
+    <Position X="2" Y="1.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
-      <FileName>Solution\Ebook.cs</FileName>
-      <NewMemberFileName>Ebook.cs</NewMemberFileName>
+      <FileName>Ebook.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
