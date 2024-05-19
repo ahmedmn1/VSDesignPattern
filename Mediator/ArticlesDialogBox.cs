@@ -54,6 +54,18 @@ namespace Mediator
             _saveButton.IsEnabled = true; //should fire Changed method but it didn't!
         }
 
+        //way to provide the componwnets to the consumers
+        public ListBox GetListBox()
+        {
+            return _articlesListBox;
+        }
+
+        public TextBox GetTextBox()
+        {
+            return _titleTextBox;
+        }
+
+
 
     }
 }

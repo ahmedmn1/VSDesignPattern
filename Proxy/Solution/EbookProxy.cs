@@ -16,12 +16,12 @@ namespace Proxy.Solution
         }
         public string FileName { get; set; }
 
-        //here we are going to prefrom the lazy loading
+        //here we are going to prefrom the real loading (Lazy loading)
         public void Show()
         {
             if (_realEbook == null) 
             {
-                _realEbook = new(this.FileName); // Load the book
+                _realEbook = new(this.FileName); // Load the book, when user requseted it.
             }
             _realEbook.Show();
         }

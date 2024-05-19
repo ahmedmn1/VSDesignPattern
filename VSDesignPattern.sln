@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-ChainOfResposibility", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-Visitor", "Visitor\10-Visitor.csproj", "{65225502-C4DF-4E2D-8F8A-8E370D868CDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Comosite", "Comosite\01-Comosite.csproj", "{A55686B5-D6B9-4EB3-964C-FD28DD9DBB16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-Composite", "Comosite\01-Composite.csproj", "{A55686B5-D6B9-4EB3-964C-FD28DD9DBB16}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Adapter", "Adapter\02-Adapter.csproj", "{A6922F77-6732-4893-A989-D9821E652799}"
 EndProject

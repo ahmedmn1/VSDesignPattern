@@ -39,6 +39,11 @@ namespace IteratorPattern
         //    return lastUrl;
         //}
 
+        //public list<string> geturls()
+        //{
+        //    return _urls;
+        //}
+
         //public List<string> GetUrls => urls; >>> dont need this anymore
 
         public IIterator<string> CreateIterator()
@@ -50,7 +55,8 @@ namespace IteratorPattern
         }
 
 
-        //nested class to see the private probs (urls) of BrowseHistory which is urls        
+        //nested class to see the private probs (urls) of BrowseHistory which is urls
+        //note: we made it private to prevent creaing it a lone by consumer as it should be created using BrowseHistory.CreateIterator
         private class ListIterator : IIterator<string>
         {
             private readonly BrowseHistory _history;
