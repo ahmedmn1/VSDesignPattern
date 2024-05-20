@@ -11,7 +11,7 @@ namespace FacroryAbstract.WithoutPattern.APP
 {
     //we have acontact form with button and text box, and you can change the theme using its render method
     //What is the probelms with this implemetnation?
-    //Violate the OCP, if we want to support a new them we have to change this code
+    //Violate the OCP, if we want to support a new theme we have to change this code
     //also the consumer might by mistake render MaterialButton while user select Ant theme! 
     public class ContactForm
     {

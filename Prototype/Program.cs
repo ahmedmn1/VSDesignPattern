@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-//real problem, we want to implement part of powoer point app, whcih you can add a shape to a slide and right click on it then slect duplicate
+﻿//Real problem, we want to implement part of power point app, whcih you can add a shape to a slide and right click on it then select duplicate
 
 using Prototype;
 

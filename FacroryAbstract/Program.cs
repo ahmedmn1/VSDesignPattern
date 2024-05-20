@@ -1,6 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-//real ex: we want to develop a gui framework which has widgets like button, listbox, textbox etc. and we want these widget
-// apear on diferent theme (theme like material design, And), so we have group of widget that work with Material design, and second work with Ant etce.
+﻿//real ex: we want to develop a gui framework which has widgets like button, listbox, textbox etc. and we want these widget
+//apear on diferent theme (theme like material design, etc), so we have group of widget that work with Material design, and second work with Ant etce.
 //Abstract Factory  Pattern: Provide an interface for creating families of related objects
 
 //without pattern

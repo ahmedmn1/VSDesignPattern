@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Singletone.ConfigManager">
-    <Position X="3.25" Y="2.25" Width="1.5" />
+    <Position X="3.25" Y="2.25" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABABAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ConfigManager.cs</FileName>
@@ -10,7 +10,7 @@
   <Class Name="Singletone.ConfigManagerSingle">
     <Position X="3.25" Y="5.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAABABAAAAAAAAABACAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAABABAgAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ConfigManagerSingle.cs</FileName>
     </TypeIdentifier>
   </Class>

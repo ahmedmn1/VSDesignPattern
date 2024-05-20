@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    //suppose that a dev will use our framework to build a product page
+    //Suppose that a dev will use our framework to build a product page
     public class ProductsControllerA:Controller
     {
         public void ListProducts()
