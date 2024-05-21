@@ -19,8 +19,7 @@ namespace FactoryMethod
             //call render method from the base to return the html
             var htmlResult = Render(viewName:"products.html",context:context);
             Console.WriteLine(htmlResult);
-            //Note: problem2 it makes it harder to the users of our framework as they need to add the viewEngine param on every controller when
-            //we call render methdod we have to pass the view engine
+           
 
         }
 

@@ -20,7 +20,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Proxy.Solution.RealEbook">
-    <Position X="1.5" Y="5.5" Width="2.5" />
+    <Position X="1.75" Y="5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAA=</HashCode>
       <FileName>Solution\RealEbook.cs</FileName>
