@@ -17,7 +17,7 @@ Connection connection = notificationServer.Connect("Ip Address");
 AuthToken authToken = notificationServer.Authenticate("appId", "key");
 Message message = new("Hello World");
 //send a message
-notificationServer.Send(authToken, message,"trgetDevice");
+notificationServer.Send(authToken, message,"targetDevice");
 //disconnect
 notificationServer.Disconnect();
 

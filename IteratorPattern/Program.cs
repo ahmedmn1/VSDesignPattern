@@ -1,5 +1,5 @@
-﻿//Problem: if we want to change the initernals of the browseHistory class (List used in GetUrls method to Array) we have to change the code on the consumer
-//The iterator came to solve this issue 
+﻿//Problem: if we want to change the initernals of the browseHistory class (List used in GetUrls method to Array) we have to
+//change the code on the consumer the iterator came to solve this issue 
 //We are going to change the implementation on BrowseHistory class- createIterator method  and add arrayIterator class 
 
 using IteratorPattern;
