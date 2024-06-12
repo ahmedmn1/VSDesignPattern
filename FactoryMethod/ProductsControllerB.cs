@@ -16,7 +16,7 @@ namespace FactoryMethod
             //create a context object for passing the products to  our view 
             Dictionary<string, object> context = [];
             //imagine that we filled these dic by product context.add 
-            //call render method from the base to return the html
+            //call render method from the base to return the html using matcha framework
             var htmlResult = Render(viewName:"products.html",context:context);
             Console.WriteLine(htmlResult);
            

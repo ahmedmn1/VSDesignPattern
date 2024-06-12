@@ -1,4 +1,5 @@
-﻿//usage: when we have a large amount of objects which consume  device memory, using this pattern will reduce the amount of memory consumed by these objects
+﻿//usage: when we have a large amount of objects which consume  device memory, using this pattern will reduce the amount of memory consumed by
+//these objects
 
 //Real example: we are developing app like google map, when we render a pic, we need to show points like cafe, restaurant, etc. with its icon, each
 //icon is a pic with 20 kb, if we load a lot of points we are going to hault the memory so how can we share the icons without creating a new one?

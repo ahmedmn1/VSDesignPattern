@@ -13,7 +13,6 @@ namespace FactoryMethod.Matcha
     public class Controller
     {
         // problem 1, this controller is tightly coupled to matchaview engine.suppose we need it to support other view engine.
-        // we can solve it by make an interface
         //public string Render(string viewName, Dictionary<string, object> context)
         //{
         //    var engine = new MatchaViewEngine();

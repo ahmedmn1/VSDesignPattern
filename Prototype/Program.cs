@@ -1,4 +1,4 @@
-﻿//Real problem, we want to implement part of power point app, whcih you can add a shape to a slide and right click on it then select duplicate
+﻿//Real problem, we want to implement part of power point app, which you can add a shape to a slide and right click on it then select duplicate
 
 using Prototype;
 

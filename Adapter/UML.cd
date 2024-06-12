@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Comment CommentText="//Problem: we have a library of imageView, Ifilter interface, vividFilter. our consumer are using ImageView.Apply method that takes an object with ype IFilter&#xD;&#xA;&#xD;&#xA;//Suppose we have a 3rd party filters library, we need to use its filter classes which has diff interface than our filter&#xD;&#xA;//(that contains apply method) also, we dont want to change the ImageView.Apply method signature as it is already shipped!&#xD;&#xA;//&#xD;&#xA;//We use this pattern to convert the interface of this third party (caramel Class) to our custom interface that we made">
+  <Comment CommentText="//Problem: we have a library of imageView, Ifilter interface, vividFilter. our consumer are using ImageView.Apply method that takes an object with ype IFilter&#xD;&#xA;&#xD;&#xA;//Suppose we have a 3rd party filters library, we need to use its filter classes which has diff interface than our filter&#xD;&#xA;//(that contains apply method) also, we dont want to change the ImageView.Apply method signature as it is already shipped!&#xD;&#xA;//&#xD;&#xA;//We use this pattern to convert the interface of this third party (caramel Class) to our IFilter interface that we made">
     <Position X="0.5" Y="0.5" Height="1.396" Width="8.012" />
   </Comment>
   <Comment CommentText="3rd Party image foler library">
@@ -14,7 +14,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Adapter.VividFilter" BaseTypeListCollapsed="true">
-    <Position X="2" Y="4.75" Width="2.25" />
+    <Position X="1.75" Y="4.25" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>VividFilter.cs</FileName>
@@ -44,7 +44,7 @@
     </TypeIdentifier>
   </Class>
   <Interface Name="Adapter.IFilter">
-    <Position X="4" Y="3.5" Width="2" />
+    <Position X="4.25" Y="3.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IFilter.cs</FileName>

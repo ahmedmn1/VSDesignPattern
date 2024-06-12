@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Comment CommentText="We have two types of Hirarichy, feature (which contains RemoteControl and AdvancedRemoteControl)">
-    <Position X="1" Y="2" Height="0.542" Width="4.315" />
+  <Comment CommentText="We have two types of Hirarichy, feature (which contains RemoteControl and AdvancedRemoteControl) and implementation which contains other classes">
+    <Position X="1" Y="2" Height="0.521" Width="4.763" />
   </Comment>
   <Class Name="Bridge.AdvancedRemoteControl">
     <Position X="5.25" Y="4" Width="1.75" />

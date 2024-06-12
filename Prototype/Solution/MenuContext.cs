@@ -12,7 +12,7 @@ namespace Prototype.Solution
         public void Duplicate (IComponent component)
         {
             IComponent clonedComponent = component.Clone ();
-            //add to our slide        
+            //add cloned component to our slide        
         }
     }
 }

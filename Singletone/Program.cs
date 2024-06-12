@@ -11,7 +11,7 @@ configManager.Set("name", "Mohmed Nabil");
 Console.WriteLine(configManager.Get("name"));
 
 ConfigManager configManager2 = new();
-Console.WriteLine(configManager2.Get("name")); //RETURN NULLE, we need it to rerurn Mohamed Nabil too!
+Console.WriteLine(configManager2.Get("name")); //RETURN NULL, we need it to rerurn Mohamed Nabil too!
 
 Console.WriteLine("*********** With Pattern ************");
 ConfigManagerSingle configManagerSingle = ConfigManagerSingle.GetInstance;

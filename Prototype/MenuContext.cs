@@ -25,6 +25,15 @@ namespace Prototype
                 // Add target to our slide
                 Console.WriteLine("Duplicate new circle with raduis of: " + target.Raduis);
             }
+            else if (component.GetType() == typeof(Square))
+            {
+                Square source = (Square)component;
+                Square target = new();
+
+                target.Side = source.Side;
+                // Add target to our slide
+                Console.WriteLine("Duplicate new square with raduis of: " + target.Side);
+            }
         }
     }
 }

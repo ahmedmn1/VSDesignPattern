@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Real Problem: suppose we are wrting a remote control class library that will control several devices such as SamsungTV, SonyTV, Movie, etc.
+﻿//Real Problem: suppose we are wrting a remote control class library that will control several devices such as SamsungTV, SonyTV, Movie, etc.
 //we have three types of remotes control. basic (on, off), advanced (set channel), Movie (Play and rewind)
 
 //RemoteControl
@@ -10,8 +9,8 @@
 //      SamsungAdvancedRemoteControl
 //Problem we have 2 types of remote controls so if we have new device we need to create 2 new classes inherit from RemoteControl and AdvancedRemoteControl
 //if we added a new remote control may be MovieRemoteControl we need to add new classes for each TVBrand etc.
-//our librart will explode by too many classes! the reason is that our hirarichy is growing in to dimentions (feature and implementation) see the UML Pic
-//With builder pattern you create simple yet powewrful hirarichy of classes
+//our librart will explode by too many classes! the reason is that, our hirarichy is growing in two dimentions (feature and implementation) see the UML Pic
+//With bridge pattern you create simple yet powewrful hirarichy of classes
 
 
 using Bridge;
@@ -21,6 +20,8 @@ using Bridge.Solution;
 //without using the pattern
 Bridge.SonyRemoteControl remoteControl1 = new();
 remoteControl1.TurnOn();
+Bridge.SamsungAdvancedRemoteControl remoteControl2 = new();
+remoteControl2.TurnOff();
 
 
 

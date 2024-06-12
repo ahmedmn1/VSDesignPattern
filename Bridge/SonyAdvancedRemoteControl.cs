@@ -8,6 +8,12 @@ namespace Bridge
 {
     public class SamsungAdvancedRemoteControl : AdvancedRemoteControl
     {
+        //private readonly SamsungRemoteControl _samsungRemoteControl;
+
+        //public SamsungAdvancedRemoteControl(SamsungRemoteControl samsungRemoteControl)
+        //{
+        //    _samsungRemoteControl = samsungRemoteControl;
+        //}
         public override void SetChannel()
         {
             Console.WriteLine("Sony SetChannel");
@@ -15,6 +21,7 @@ namespace Bridge
 
         public override void TurnOff()
         {
+            //_samsungRemoteControl.TurnOff();
             Console.WriteLine("Sony TurnOff");
         }
 

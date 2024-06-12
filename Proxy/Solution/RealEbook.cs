@@ -19,7 +19,7 @@ namespace Proxy.Solution
 
         private void Load()
         {
-            Console.WriteLine("Loading the ebook " + FileName);
+            Console.WriteLine("Loading ebook from the memory! " + FileName);
         }
 
         public void Show()
