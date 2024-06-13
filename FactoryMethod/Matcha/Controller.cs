@@ -9,7 +9,7 @@ namespace FactoryMethod.Matcha
     //base class for all of our controllers
     // this class takes the actions of the user like click, and return a view
     // problem 1, this controller is tightly coupled to matchaview engine.suppose we need it to support other view engine.
-    // we can solve it by make an interface but produces problem2
+    // we can solve it by using adpter pattern but we still have problem2
     public class Controller
     {
         // problem 1, this controller is tightly coupled to matchaview engine.suppose we need it to support other view engine.

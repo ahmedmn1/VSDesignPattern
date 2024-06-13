@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Builder.Movie">
-    <Position X="7.25" Y="1.25" Width="3.25" />
+    <Position X="6" Y="1.25" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Movie.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Builder.PdfDocument">
-    <Position X="7.25" Y="3" Width="2.25" />
+    <Position X="5.25" Y="3.25" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>PdfDocument.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Builder.Slide">
-    <Position X="0.5" Y="3" Width="2" />
+    <Position X="0.75" Y="3.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
       <FileName>Slide.cs</FileName>
