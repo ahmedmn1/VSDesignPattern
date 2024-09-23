@@ -21,6 +21,7 @@ history.Push(editor.CreateState());
 editor.Content = "D";
 editor.Color = "Yellow";
 
+//undo command
 editor.RestoreState(history.Pop());
 Console.WriteLine($"{"Content:" + editor.Content + "  && Color: " + editor.Color}");  //return c and delete it 
 

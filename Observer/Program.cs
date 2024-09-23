@@ -25,7 +25,7 @@ PChartP pChartP = new(dataSourceP);
 dataSourceP.AddObserver(excelSheetP);
 dataSourceP.AddObserver(pChartP);
 dataSourceP.AddObserver(excelSheet1P);
-dataSourceP.Sales = 23;
+dataSourceP.CustomerSales = 23;
 dataSourceP.CustomerName = "Mickey Mouse";
 
 

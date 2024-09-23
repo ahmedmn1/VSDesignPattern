@@ -31,6 +31,7 @@ namespace Comosite
             //}
 
             //this is more beutiful using the composite pattern, nested loop is going to executed
+            Console.WriteLine("Group rendering");
             foreach (IComponent component in _components)
             {
                 component.Render();
@@ -39,6 +40,7 @@ namespace Comosite
 
         public void Resize()
         {
+            Console.WriteLine("Group Resizing");
             foreach (IComponent component in _components)
             {
                 component.Resize();

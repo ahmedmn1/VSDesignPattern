@@ -18,7 +18,9 @@ namespace Flyweight.Solution
             points.Add(point);
             var point2 = new Point(1, 3, _iconFactory.GetPointIcon(PointType.Restaurant)); //IconFactory returns existed PointIcon object from its dictionary
             points.Add(point2);
-            
+            var point3 = new Point(1, 3, _iconFactory.GetPointIcon(PointType.Hospital)); //IconFactory will create a new PointIcon object and add it to its dictionary
+            points.Add(point3);
+
             return points;
         }
     }

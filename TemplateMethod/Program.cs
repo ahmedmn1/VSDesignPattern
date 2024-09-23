@@ -15,6 +15,14 @@ transferMoney.Execute();
 
 
 
+var transferMoney2 = new TransferMoneyTask(new AuditTrail());
+
+transferMoney2.Execute();
+
+
+
+
+
 
 
 

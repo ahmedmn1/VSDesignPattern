@@ -12,14 +12,6 @@ namespace FactoryMethod.Matcha
     // we can solve it by using adpter pattern but we still have problem2
     public class Controller
     {
-        // problem 1, this controller is tightly coupled to matchaview engine.suppose we need it to support other view engine.
-        //public string Render(string viewName, Dictionary<string, object> context)
-        //{
-        //    var engine = new MatchaViewEngine();
-        //    var html = matchaViewEngine.Render(viewName, context);
-        //    return "html";
-        //}
-
         //problem2 it makes it harder to the users of our framework as they need to add the viewEngine param on every controller when we call render
         //methdod we have to pass the view engine.. how to solve this probelm using the factory pattern
         public string Render(string viewName, Dictionary<string, object> context, IMatchaViewEngine matchaViewEngine)

@@ -14,6 +14,7 @@ group2.Add(new Shape()); //Circle2
 Group group3 = new();
 group3.Add(group1);
 group3.Add(group2);
+
 group3.Render();
 
 

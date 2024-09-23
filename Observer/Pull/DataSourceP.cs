@@ -6,34 +6,34 @@ using System.Threading.Tasks;
 
 namespace Observer.Pull
 {
-    public class DataSourceP:Subject
-    {
+	public class DataSourceP:Subject
+	{
 		private int _custemerSales;
 
-		public int Sales
+		public int CustomerSales
 		{
 			get { return _custemerSales; }
 			set 
 			{
 				_custemerSales = value;
-                NotifyObservers();
-            }
+				NotifyObservers();
+			}
 		}
 
 
-        private string _customerName;
+		private string _customerName;
 
 		public string CustomerName
-        {
-            get => _customerName;
-            set
-            {
-                _customerName = value;
-                NotifyObservers();
-            }
-        }
+		{
+			get => _customerName;
+			set
+			{
+				_customerName = value;
+				NotifyObservers();
+			}
+		}
 
 
 
-    }
+	}
 }

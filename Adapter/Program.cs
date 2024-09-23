@@ -12,6 +12,7 @@ using Adapter.AvaFilters;
 ImageView imageView = new(new Image());
 
 imageView.Apply(new VividFilter()); //using our own filter
-//We couldn't call this as the apply expect object that implement our IFilter Interface .. ex. imageView.Apply(new Caramel());
+//We couldn't call this ... imageView.Apply(new Caramel()) as the apply expect object that implement our
+//IFilter Interface thats why we used Adapter pattern;
 imageView.Apply(new CaramelAdapter(new Caramel())); 
 

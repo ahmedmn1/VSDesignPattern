@@ -13,7 +13,7 @@ namespace Observer.Pull
 
         public void Update()
         {
-            Console.WriteLine("SheetP got notified with just sales= " + _dataSourceP.Sales);
+            Console.WriteLine("SheetP got notified with just sales= " + _dataSourceP.CustomerSales);
         }
     }
 }

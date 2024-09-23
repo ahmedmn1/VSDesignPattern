@@ -10,7 +10,6 @@ namespace Comosite
     {
         public void Render() => Console.WriteLine("Render Shape");
         public void Resize() => Console.WriteLine("Resize Shape");
-
         
     }
 }

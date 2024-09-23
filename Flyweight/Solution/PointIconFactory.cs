@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Flyweight.Solution
 {
-    //This class to enure that there is an icon for a given type in memory and return it if there is not it will add create a new one and adds it to
+    //This class to enure that there is an icon for a given type in memory and return it. if there is not, it will create a new one and adds it to
     //the dictionary.
     //it is some kind of cache, this is how to prepare cache or pool of object to reuse
     public class PointIconFactory //resposible of purely creating a pointIcon object, we rely on this factory to not create multible instance of the

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Comment CommentText="Problem: we have a mobil lib to push notification to our users, among its classes are Message, Connection, AuthToken and notificationServer. each time we need to send a message to user we need to follow the steps in program.cs!&#xD;&#xA;&#xD;&#xA;Solution: creating a Facad interface that will be talk directly to this complex library.">
-    <Position X="1.615" Y="1.75" Height="0.75" Width="7.169" />
+  <Comment CommentText="Problem: we have a mobile lib to push notifications to our users, among its classes are Message, Connection, AuthToken and notificationServer. each time we need to send a message to user we need to follow the steps in program.cs!&#xD;&#xA;&#xD;&#xA;Solution: creating a Facad interface that will be talk directly to this complex library.">
+    <Position X="1.615" Y="1.75" Height="0.938" Width="7.169" />
   </Comment>
   <Class Name="Facade.NotificationService">
     <Position X="4.75" Y="8.75" Width="3" />

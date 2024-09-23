@@ -11,23 +11,24 @@ namespace IteratorPattern
 {
     public class BrowseHistory
     {
-        private readonly List<string> _urls = new();
-        private readonly string[] _urlss = new string[6]; //array of four elemets
+        private readonly List<string> _urlsList = new();
+        private readonly string[] _urlsArray = new string[6]; //array of five elemets
 
         private int _count;
 
         public void Push(string url)
         {
-            _urls.Add(url); //add to the list
+            _urlsList.Add(url); //add to the list
             int arrayNextItemCount = _count++;
-            _urlss[arrayNextItemCount] = url; //add to the array
+            _urlsArray[arrayNextItemCount] = url; //add to the array
         }
 
         //return last item and remove it for the array object
         public string Pop()
         {
             _count--;
-            return _urlss[--_count];
+            return _urlsArray[--_count]; //for array
+            //return _urls[--_count]; for list
 
         }
 
@@ -70,12 +71,12 @@ namespace IteratorPattern
 
             public string Current()
             {
-                return (_history._urls[_index]);
+                return (_history._urlsList[_index]);
             }
 
             public bool HasNext()
             {
-                return (_index <_history._urls.Count);
+                return (_index <_history._urlsList.Count);
             }
 
             public void Next()
@@ -97,13 +98,13 @@ namespace IteratorPattern
 
             public string Current()
             {
-                return (_history._urlss[_counter]);
+                return (_history._urlsArray[_counter]);
             }
 
             public bool HasNext()
             {
                 //it answer the question, if the next Counter is less than 4 
-                return (_counter < _history._urlss.Length);
+                return (_counter < _history._urlsArray.Length);
             }
 
             public void Next()
