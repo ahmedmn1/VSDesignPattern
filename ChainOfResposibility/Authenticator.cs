@@ -10,6 +10,7 @@ namespace ChainOfResposibility
     {
         override protected bool DoHandle(HttpRequest request)
         {
+            //authetication implemenation
             Console.WriteLine("Authentication");
             return !(request.UserName == "admin" && request.Password == "123");
         }

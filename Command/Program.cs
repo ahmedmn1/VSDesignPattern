@@ -39,6 +39,9 @@ var underLineCommand = new UnderLineCommand(document, history);
 underLineCommand.Execute();
 Console.WriteLine(document.Content);
 
+underLineCommand.UnExecute(); //unexcute method might be on any part of your code.
+
+
 
 
 //Create a unDo commnad object on another place in your app may be on button click (undo menu item)

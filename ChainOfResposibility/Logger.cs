@@ -10,6 +10,7 @@ namespace ChainOfResposibility
     {
         override protected bool DoHandle(HttpRequest request)
         {
+            //Logging implementation
             Console.WriteLine("Logging");
             return false;
         }
