@@ -25,5 +25,6 @@ namespace Bridge
     {
         public abstract void TurnOn();
         public abstract void TurnOff();
+        public abstract void SleepAfter();
     }
 }
