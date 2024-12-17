@@ -12,5 +12,10 @@ namespace Facade
         {
 
         }
+
+        public void Connect()
+        {
+
+        }
     }
 }
