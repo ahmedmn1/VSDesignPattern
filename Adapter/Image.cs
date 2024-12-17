@@ -8,5 +8,10 @@ namespace Adapter
 {
     public class Image
     {
+        public static string GetName(string prop)
+        {
+            //Code from entity frmaework
+        }
+        
     }
 }
