@@ -9,6 +9,9 @@ history.Push("A");
 history.Push("B");
 history.Push("C");
 history.Push("D");
+history.Push("E");
+history.Push("F");
+history.Push("G");
 
 //>> we don't need this anymore as it used list methods and if we changed brwoseHistory internal to use array we have to change this cosumer
 //for (int i = 0; i < history.GetUrls.Count; i++)
@@ -18,12 +21,9 @@ history.Push("D");
 
 //if we change the internal of browseHistory.CreateIterator this code will not affected as we program against interface >>>important
 IIterator<string> iterator = history.CreateIterator();
-history.Push("E");
-history.Push("F");
-
 
 //if we change the internal of browseHistory class this code will not affected
-while (iterator.HasNext())
+while (iterator.HasNext()) //loop through the list or the attay
 {
     var url = iterator.Current();
     Console.WriteLine(url);
