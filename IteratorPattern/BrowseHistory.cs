@@ -12,7 +12,7 @@ namespace IteratorPattern
     public class BrowseHistory
     {
         private readonly List<string> _urlsList = new();
-        private readonly string[] _urlsArray = new string[7]; //array of six elemets
+        private readonly string[] _urlsArray = new string[7]; //array of seven elemets note the base of the array is zero
 
         private int _count;
 
