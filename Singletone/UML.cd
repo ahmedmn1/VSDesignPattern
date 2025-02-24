@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Without Pattern">
+    <Position X="3.267" Y="1.567" Height="0.392" Width="1.7" />
+  </Comment>
+  <Comment CommentText="With singletone pattern">
+    <Position X="3.258" Y="4.975" Height="0.392" Width="1.7" />
+  </Comment>
   <Class Name="Singletone.ConfigManager">
     <Position X="3.25" Y="2.25" Width="3" />
     <TypeIdentifier>

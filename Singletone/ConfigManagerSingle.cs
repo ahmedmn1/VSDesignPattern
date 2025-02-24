@@ -9,10 +9,13 @@ namespace Singletone
     public class ConfigManagerSingle
     {
         readonly Dictionary<string, string> _settings = [];
-        private static readonly ConfigManagerSingle _instance = new(); //because we are inside this class we can use the new keyword. must be static
+        //because we are inside this class we can use the new keyword. must be static
+        private static readonly ConfigManagerSingle _instance = new(); 
 
         //we added just these three line of codes to convert the class to be singletone
-        private ConfigManagerSingle() {} //to disable any consumer from creating new insance from this class we made it private
+        private ConfigManagerSingle() {} 
+        // /\to disable any consumer from creating new insance from this class we made
+        //it private constructor
         public static ConfigManagerSingle GetInstance { get => _instance; } // static to call it without creating new instance, and it reurn the same instance everytime
 
         public void Set(string key, string value)

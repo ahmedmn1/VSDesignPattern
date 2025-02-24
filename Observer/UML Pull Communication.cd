@@ -4,14 +4,14 @@
     <Position X="0.5" Y="0.5" Height="3.115" Width="7.689" />
   </Comment>
   <Class Name="Observer.Pull.DataSourceP">
-    <Position X="0.75" Y="7" Width="2.5" />
+    <Position X="0.75" Y="7.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAABAAgAAAAAAAAQAAACAAAAAAAAAAAAAA=</HashCode>
       <FileName>Pull\DataSourceP.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Observer.Pull.ExcelSheet1P" BaseTypeListCollapsed="true">
-    <Position X="7.25" Y="5.75" Width="3" />
+    <Position X="7.25" Y="6.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Pull\ExcelSheet1P.cs</FileName>
@@ -19,7 +19,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Observer.Pull.ExcelSheetP" BaseTypeListCollapsed="true">
-    <Position X="10.5" Y="5.75" Width="2.75" />
+    <Position X="10.5" Y="6.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Pull\ExcelSheetP.cs</FileName>
@@ -27,7 +27,7 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Observer.Pull.PChartP" BaseTypeListCollapsed="true">
-    <Position X="4" Y="5.75" Width="2.75" />
+    <Position X="4" Y="6.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Pull\PChartP.cs</FileName>
@@ -35,14 +35,14 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="Observer.Pull.Subject">
-    <Position X="0.5" Y="3.75" Width="3" />
+    <Position X="0.5" Y="4.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAA=</HashCode>
       <FileName>Pull\Subject.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Observer.Pull.IObserver">
-    <Position X="8.25" Y="4" Width="1.5" />
+    <Position X="8.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Pull\IObserver.cs</FileName>

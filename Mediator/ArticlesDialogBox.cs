@@ -19,11 +19,11 @@ namespace Mediator
         {
             _articlesListBox.Selection = "MickeyMouse Item Seleted from Mediator";
             Console.WriteLine("Text Box: " + _titleTextBox.Content);
-            Console.WriteLine("Button: " + _saveButton.IsEnabled);
+            Console.WriteLine("Button Is Enabled prop: " + _saveButton.IsEnabled);
 
             _titleTextBox.Content = "";
             Console.WriteLine("Text Box: " + _titleTextBox.Content);
-            Console.WriteLine("Button: " + _saveButton.IsEnabled);
+            Console.WriteLine("Button Is Enabled prop: " + _saveButton.IsEnabled);
         }
 
         public ArticlesDialogBox()

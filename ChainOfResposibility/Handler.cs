@@ -19,8 +19,8 @@ namespace ChainOfResposibility
 
         }
 
-
         //if request is already handled and done return true
-        protected abstract bool DoHandle(HttpRequest request); //protected means, it is only visible here in the base class and subclass, not accessed by client
+        protected abstract bool DoHandle(HttpRequest request); //protected means, it is only visible here in the
+                                                               //base class and subclass, not accessed by client
     }
 }

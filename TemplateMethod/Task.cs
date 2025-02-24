@@ -29,7 +29,8 @@ namespace TemplateMethod
         }
 
         //called hook, because it is hooked to the excute method
-        protected abstract void DoExecute(); //Potected: only its subclass know how to do the doExcute and this couldn't shown in the consumer
+        protected abstract void DoExecute(); //Potected: only its subclass know how to do the doExcute and this
+                                             //couldn't shown in the consumer
 
     }
 }

@@ -14,12 +14,11 @@
 using Mediator;
 using Mediator.Observer;
 
+Console.WriteLine('\n' + "******** Mediator Pattrn **************");
 Mediator.ArticlesDialogBox articlesDialogBox = new();
 articlesDialogBox.SimulateUserInteraction();
 
-Console.WriteLine("*******************************************************************");
-
-
+Console.WriteLine('\n' + "******************* Mediator with observer **********************");
 Mediator.Observer.ArticlesDialogBox  articlesDialogBox1 = new();
 articlesDialogBox1.SimulateUserInteraction();
 

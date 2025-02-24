@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ChainOfResposibility
 {
-    public class Authenticator(Handler next) : Handler(next) //note: this is a primary constructor that calls the base class handler
+    public class Authenticator(Handler next) : Handler(next) //note: this is a primary constructor that calls
+                                                             //the base class handler
     {
         override protected bool DoHandle(HttpRequest request)
         {
