@@ -7,14 +7,14 @@
     <Position X="5.281" Y="6.385" Height="0.323" Width="2.169" />
   </Comment>
   <Class Name="Adapter.Image">
-    <Position X="2.75" Y="2.25" Width="1.5" />
+    <Position X="2.75" Y="2.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
       <FileName>Image.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Adapter.VividFilter" BaseTypeListCollapsed="true">
-    <Position X="1.75" Y="4.25" Width="2.25" />
+    <Position X="5" Y="4.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>VividFilter.cs</FileName>
@@ -44,7 +44,7 @@
     </TypeIdentifier>
   </Class>
   <Interface Name="Adapter.IFilter">
-    <Position X="4.25" Y="3.25" Width="2" />
+    <Position X="5" Y="3" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IFilter.cs</FileName>
